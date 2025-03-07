@@ -93,5 +93,8 @@ function buildModal(list, selector) {
 }
 
 
-buildContainer(project, "#project_buttons");
-buildModal(project, "#main_something");
+$(document).ready( function() {
+  buildContainer(project, "#project_buttons");
+  buildModal(project, "#main_something");
+})
+
